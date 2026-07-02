@@ -1,0 +1,7 @@
+venv/
+.env
+__pycache__/
+*.pyc
+data/memory.db
+data/triage_results_checkpoint.json
+data/sent_log.json

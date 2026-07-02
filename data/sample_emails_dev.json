@@ -1,0 +1,154 @@
+[
+  {
+    "id": "e001",
+    "from": "prof.reyes@university.edu",
+    "subject": "Reminder: Lecture moved to Hall B this week",
+    "body": "Hi all, just a quick note that this week's lecture (Thursday) will be in Hall B instead of the usual room. Same time. See you there.",
+    "date": "2026-06-22T09:14:00",
+    "thread_id": null
+  },
+  {
+    "id": "e002",
+    "from": "prof.reyes@university.edu",
+    "subject": "FYI: Updated reading list posted",
+    "body": "Posted the updated reading list for next month on the course site. No action needed, just keeping everyone in the loop.",
+    "date": "2026-06-23T11:02:00",
+    "thread_id": null
+  },
+  {
+    "id": "e008",
+    "from": "prof.reyes@university.edu",
+    "subject": "Office hours this Friday cancelled",
+    "body": "Cancelling office hours this Friday due to a conflict. Will hold extra hours next Monday instead. No need to reply.",
+    "date": "2026-06-25T14:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e016",
+    "from": "prof.reyes@university.edu",
+    "subject": "Grades posted",
+    "body": "Midterm grades are posted on the portal. Reach out if you have questions, otherwise no action needed.",
+    "date": "2026-06-26T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e037",
+    "from": "prof.reyes@university.edu",
+    "subject": "Recommendation letter - need this by Monday",
+    "body": "Got your request for a recommendation letter. Happy to write it, but I need the form and your resume by Monday morning since the application deadline is Tuesday and I'll be traveling after that.",
+    "date": "2026-06-27T13:00:00",
+    "thread_id": "t004"
+  },
+  {
+    "id": "e064",
+    "from": "prof.reyes@university.edu",
+    "subject": "Re: Recommendation letter - need this by Monday",
+    "body": "Just checking, did you get a chance to send the form and resume? I leave Monday afternoon so I really do need it before then to get the letter done in time.",
+    "date": "2026-06-29T08:00:00",
+    "thread_id": "t004"
+  },
+  {
+    "id": "e004",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Re: Saturday booking",
+    "body": "Hi, unfortunately we had a pipe burst in the main hall this morning and won't be able to host your event Saturday. We're working on alternatives but wanted you to know immediately so you can make other plans. Really sorry about this.",
+    "date": "2026-06-24T13:45:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e010",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Re: Saturday booking - alternative found",
+    "body": "Update - we found a sister venue across town that can take your event at the same time Saturday, same rate. Let me know by end of day today if you want to confirm it, otherwise we'll have to release the slot to someone else on the waitlist.",
+    "date": "2026-06-25T09:10:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e024",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Thanks for confirming!!",
+    "body": "Awesome!! So glad it worked out!! See you Saturday, it's going to be great!! Let me know if you need anything else before then!!",
+    "date": "2026-06-25T09:30:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e003",
+    "from": "events@trendybrand.com",
+    "subject": "ACT NOW: 24-Hour Flash Sale Ends Tonight!!!",
+    "body": "Don't miss out! Everything in our store is 40% off but ONLY for the next 24 hours. Act now before it's gone forever. Click here to shop the sale.",
+    "date": "2026-06-24T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e007",
+    "from": "noreply@social-network.com",
+    "subject": "URGENT: You have 3 new notifications!!!",
+    "body": "Someone liked your photo. Someone commented on your post. You have a new follower. Log in now to see what's new!",
+    "date": "2026-06-25T10:05:00",
+    "thread_id": null
+  },
+  {
+    "id": "e015",
+    "from": "promo@dealsdealsdeals.com",
+    "subject": "URGENT URGENT URGENT - Last chance pricing",
+    "body": "This is your absolute last chance to lock in URGENT pricing on our premium subscription. Don't wait, prices go up tomorrow!",
+    "date": "2026-06-25T05:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e014",
+    "from": "landlord.dpatel@rentalmail.com",
+    "subject": "Lease renewal decision needed",
+    "body": "Your lease is up at the end of next month. I need to know by this weekend whether you're renewing so I can either send the new lease paperwork or start listing the unit. Let me know either way.",
+    "date": "2026-06-23T18:45:00",
+    "thread_id": "t006"
+  },
+  {
+    "id": "e074",
+    "from": "landlord.dpatel@rentalmail.com",
+    "subject": "Re: Lease renewal decision needed",
+    "body": "Following up on this since the weekend has passed, do you have an answer on the renewal? Need to know soon either way.",
+    "date": "2026-06-29T10:00:00",
+    "thread_id": "t006"
+  },
+  {
+    "id": "e006",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Quick question before tomorrow",
+    "body": "Hey, before we lock in the proposal tomorrow morning, can you confirm the client wants the extended warranty option included? Want to make sure we don't have to redo the doc last minute.",
+    "date": "2026-06-25T16:20:00",
+    "thread_id": null
+  },
+  {
+    "id": "e018",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Re: Quick question before tomorrow",
+    "body": "Following up since I haven't heard back and the meeting is in a few hours - going to assume extended warranty is included unless you tell me otherwise in the next hour.",
+    "date": "2026-06-26T07:30:00",
+    "thread_id": "t002"
+  },
+  {
+    "id": "e043",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Re: Quick question before tomorrow",
+    "body": "Never mind, figured it out from the old proposal doc. We're good, thanks anyway.",
+    "date": "2026-06-26T08:10:00",
+    "thread_id": "t002"
+  },
+  {
+    "id": "e025",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Quick favor for next time!!",
+    "body": "Hey!! Quick favor, when you get a chance could you leave us a review on the venue site?? Totally no rush, whenever works for you!!",
+    "date": "2026-06-27T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e017",
+    "from": "accounts@streamingservice.com",
+    "subject": "We're sorry to see you go",
+    "body": "Your subscription has been cancelled as requested and will end on your next billing date. No further action is needed.",
+    "date": "2026-06-20T12:00:00",
+    "thread_id": null
+  }
+]

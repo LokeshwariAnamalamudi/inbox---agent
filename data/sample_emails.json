@@ -1,0 +1,618 @@
+[
+  {
+    "id": "e001",
+    "from": "prof.reyes@university.edu",
+    "subject": "Reminder: Lecture moved to Hall B this week",
+    "body": "Hi all, just a quick note that this week's lecture (Thursday) will be in Hall B instead of the usual room. Same time. See you there.",
+    "date": "2026-06-22T09:14:00",
+    "thread_id": null
+  },
+  {
+    "id": "e002",
+    "from": "prof.reyes@university.edu",
+    "subject": "FYI: Updated reading list posted",
+    "body": "Posted the updated reading list for next month on the course site. No action needed, just keeping everyone in the loop.",
+    "date": "2026-06-23T11:02:00",
+    "thread_id": null
+  },
+  {
+    "id": "e003",
+    "from": "events@trendybrand.com",
+    "subject": "ACT NOW: 24-Hour Flash Sale Ends Tonight!!!",
+    "body": "Don't miss out! Everything in our store is 40% off but ONLY for the next 24 hours. Act now before it's gone forever. Click here to shop the sale.",
+    "date": "2026-06-24T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e004",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Re: Saturday booking",
+    "body": "Hi, unfortunately we had a pipe burst in the main hall this morning and won't be able to host your event Saturday. We're working on alternatives but wanted you to know immediately so you can make other plans. Really sorry about this.",
+    "date": "2026-06-24T13:45:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e005",
+    "from": "billing@cloudhostpro.com",
+    "subject": "Your invoice #88213 is ready",
+    "body": "Your monthly invoice for $14.00 is now available in your account. No action is needed if you're on auto-pay.",
+    "date": "2026-06-24T07:30:00",
+    "thread_id": null
+  },
+  {
+    "id": "e006",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Quick question before tomorrow",
+    "body": "Hey, before we lock in the proposal tomorrow morning, can you confirm the client wants the extended warranty option included? Want to make sure we don't have to redo the doc last minute.",
+    "date": "2026-06-25T16:20:00",
+    "thread_id": null
+  },
+  {
+    "id": "e007",
+    "from": "noreply@social-network.com",
+    "subject": "URGENT: You have 3 new notifications!!!",
+    "body": "Someone liked your photo. Someone commented on your post. You have a new follower. Log in now to see what's new!",
+    "date": "2026-06-25T10:05:00",
+    "thread_id": null
+  },
+  {
+    "id": "e008",
+    "from": "prof.reyes@university.edu",
+    "subject": "Office hours this Friday cancelled",
+    "body": "Cancelling office hours this Friday due to a conflict. Will hold extra hours next Monday instead. No need to reply.",
+    "date": "2026-06-25T14:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e009",
+    "from": "hr@currentemployer.com",
+    "subject": "Action required: benefits enrollment closes Friday",
+    "body": "This is a reminder that open enrollment for benefits closes this Friday at 5pm. If you haven't submitted your selections, you'll be defaulted to last year's plan, which may not be what you want given the premium changes. Please log in to the portal to review.",
+    "date": "2026-06-23T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e010",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Re: Saturday booking - alternative found",
+    "body": "Update - we found a sister venue across town that can take your event at the same time Saturday, same rate. Let me know by end of day today if you want to confirm it, otherwise we'll have to release the slot to someone else on the waitlist.",
+    "date": "2026-06-25T09:10:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e011",
+    "from": "newsletter@industryweekly.com",
+    "subject": "This week in the industry: 5 stories you missed",
+    "body": "Here's your weekly roundup of news from across the industry. Top story: market trends shift as new regulations take effect. Read more inside.",
+    "date": "2026-06-22T06:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e012",
+    "from": "alex.morgan@oldcolleague.com",
+    "subject": "long time no talk",
+    "body": "Hey! Was thinking about you the other day, how have you been? No agenda here, just wanted to say hi after all this time.",
+    "date": "2026-06-21T19:30:00",
+    "thread_id": "t005"
+  },
+  {
+    "id": "e013",
+    "from": "it-support@currentemployer.com",
+    "subject": "Scheduled maintenance Sunday 2-4am",
+    "body": "Heads up that our systems will be down for scheduled maintenance Sunday 2-4am. No action needed unless you're working during that window.",
+    "date": "2026-06-24T15:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e014",
+    "from": "landlord.dpatel@rentalmail.com",
+    "subject": "Lease renewal decision needed",
+    "body": "Your lease is up at the end of next month. I need to know by this weekend whether you're renewing so I can either send the new lease paperwork or start listing the unit. Let me know either way.",
+    "date": "2026-06-23T18:45:00",
+    "thread_id": "t006"
+  },
+  {
+    "id": "e015",
+    "from": "promo@dealsdealsdeals.com",
+    "subject": "URGENT URGENT URGENT - Last chance pricing",
+    "body": "This is your absolute last chance to lock in URGENT pricing on our premium subscription. Don't wait, prices go up tomorrow!",
+    "date": "2026-06-25T05:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e016",
+    "from": "prof.reyes@university.edu",
+    "subject": "Grades posted",
+    "body": "Midterm grades are posted on the portal. Reach out if you have questions, otherwise no action needed.",
+    "date": "2026-06-26T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e017",
+    "from": "accounts@streamingservice.com",
+    "subject": "We're sorry to see you go",
+    "body": "Your subscription has been cancelled as requested and will end on your next billing date. No further action is needed.",
+    "date": "2026-06-20T12:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e018",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Re: Quick question before tomorrow",
+    "body": "Following up since I haven't heard back and the meeting is in a few hours - going to assume extended warranty is included unless you tell me otherwise in the next hour.",
+    "date": "2026-06-26T07:30:00",
+    "thread_id": "t002"
+  },
+  {
+    "id": "e019",
+    "from": "prof.reyes@university.edu",
+    "subject": "Quick heads up before next class",
+    "body": "Hey, normally I wouldn't email about this but the final project proposal deadline got moved up to this Friday instead of next week due to a scheduling conflict with grading. Sorry for the late notice, please get it in if you can.",
+    "date": "2026-06-26T08:15:00",
+    "thread_id": null
+  },
+  {
+    "id": "e020",
+    "from": "prof.reyes@university.edu",
+    "subject": "Syllabus typo fix",
+    "body": "Small correction to the syllabus, the reading for week 9 was listed wrong. Updated PDF is on the portal. No action needed.",
+    "date": "2026-06-20T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e021",
+    "from": "prof.reyes@university.edu",
+    "subject": "Class cancelled tomorrow",
+    "body": "Class is cancelled tomorrow, I'm out sick. We'll cover the material next session, no makeup needed.",
+    "date": "2026-06-19T20:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e022",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Loved catching up at the conference",
+    "body": "Great running into you last week! Let's grab coffee sometime when schedules align. No rush, just wanted to say it was good to connect.",
+    "date": "2026-06-18T17:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e023",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Contract draft attached",
+    "body": "Sending over the draft we discussed. Take a look whenever you get a chance this week, nothing urgent, just want your eyes on it before we finalize next month.",
+    "date": "2026-06-17T11:30:00",
+    "thread_id": null
+  },
+  {
+    "id": "e024",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Thanks for confirming!!",
+    "body": "Awesome!! So glad it worked out!! See you Saturday, it's going to be great!! Let me know if you need anything else before then!!",
+    "date": "2026-06-25T09:30:00",
+    "thread_id": "t001"
+  },
+  {
+    "id": "e025",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Quick favor for next time!!",
+    "body": "Hey!! Quick favor, when you get a chance could you leave us a review on the venue site?? Totally no rush, whenever works for you!!",
+    "date": "2026-06-27T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e026",
+    "from": "dr.patel@cardiologyclinic.com",
+    "subject": "Test results and next steps",
+    "body": "Your recent bloodwork came back and there are a couple of values we should discuss. Nothing to panic about, but please call the office this week to schedule a follow-up so we can go over it together.",
+    "date": "2026-06-24T14:30:00",
+    "thread_id": null
+  },
+  {
+    "id": "e027",
+    "from": "school.frontoffice@elementary.edu",
+    "subject": "Early pickup tomorrow",
+    "body": "Reminder that tomorrow is an early dismissal day, 12:30pm instead of 3pm. Please arrange pickup accordingly.",
+    "date": "2026-06-25T16:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e028",
+    "from": "neighbor.tom@personalmail.com",
+    "subject": "your package",
+    "body": "hey a package got left on your porch while you were out, brought it inside mine so it doesn't get rained on, grab it whenever",
+    "date": "2026-06-26T18:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e029",
+    "from": "carrental@quickrentals.com",
+    "subject": "Your rental return is overdue",
+    "body": "Our records show your rental vehicle was due back yesterday. Additional daily charges are accruing. Please return the vehicle or contact us to extend.",
+    "date": "2026-06-26T07:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e030",
+    "from": "newsletter@hobbyforum.com",
+    "subject": "Registration deadline approaching for the meetup you skipped",
+    "body": "Just a reminder that registration for the regional meetup closes Friday. (You previously marked yourself as not attending, this is a general reminder sent to all members.)",
+    "date": "2026-06-23T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e031",
+    "from": "accounting@currentemployer.com",
+    "subject": "Expense report needs correction",
+    "body": "Your expense report from last month was flagged, the receipt for the client dinner is missing. Please upload it or the reimbursement will be reduced when payroll processes Friday.",
+    "date": "2026-06-24T11:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e032",
+    "from": "sam.osei@formerclassmate.com",
+    "subject": "are you around this weekend",
+    "body": "few of us from the old group are getting together saturday, you free? no worries if not, just figured i'd ask",
+    "date": "2026-06-25T12:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e033",
+    "from": "support@projecttool.com",
+    "subject": "We've updated our terms of service",
+    "body": "Our terms of service have been updated effective next month. Continued use of the service constitutes acceptance. Full details on our website.",
+    "date": "2026-06-21T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e034",
+    "from": "client.bigaccount@majorclient.com",
+    "subject": "Need to talk about the contract",
+    "body": "Can we get on a call this week. There's some internal pushback on our end about the renewal terms and I want to walk you through it before it becomes a bigger issue.",
+    "date": "2026-06-26T09:45:00",
+    "thread_id": "t003"
+  },
+  {
+    "id": "e035",
+    "from": "client.bigaccount@majorclient.com",
+    "subject": "Following up - getting some pressure here",
+    "body": "Wanted to follow up since I haven't heard back. Honestly the pushback I mentioned is getting more serious on my end and I'd rather solve this together than have it escalate past me.",
+    "date": "2026-06-27T08:30:00",
+    "thread_id": "t003"
+  },
+  {
+    "id": "e036",
+    "from": "gym.membership@fitnessclub.com",
+    "subject": "Your membership renews automatically Friday",
+    "body": "This is your annual reminder that your membership will renew automatically Friday at the current rate. No action needed unless you want to make changes.",
+    "date": "2026-06-22T07:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e037",
+    "from": "prof.reyes@university.edu",
+    "subject": "Recommendation letter - need this by Monday",
+    "body": "Got your request for a recommendation letter. Happy to write it, but I need the form and your resume by Monday morning since the application deadline is Tuesday and I'll be traveling after that.",
+    "date": "2026-06-27T13:00:00",
+    "thread_id": "t004"
+  },
+  {
+    "id": "e038",
+    "from": "warehouse@onlineretailer.com",
+    "subject": "Delivery delayed",
+    "body": "Your order has been delayed due to a warehouse issue. New estimated delivery is 5-7 business days later than originally quoted. We apologize for the inconvenience.",
+    "date": "2026-06-25T06:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e039",
+    "from": "promo@dealsdealsdeals.com",
+    "subject": "Order shipped! Track your package",
+    "body": "Good news, the order you placed last week has shipped and is on its way. Estimated arrival in 3-5 days.",
+    "date": "2026-06-24T16:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e040",
+    "from": "taxprep@accountingfirm.com",
+    "subject": "Documents needed for filing",
+    "body": "We're missing a couple of documents to complete your filing before the extension deadline next week. Could you send the 1099 forms when you have a chance? We have a little buffer but would like to get this wrapped up.",
+    "date": "2026-06-23T15:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e041",
+    "from": "alumni@university.edu",
+    "subject": "You're invited: Homecoming weekend",
+    "body": "Join us for homecoming weekend this fall. Registration opens next month. We'd love to see you there.",
+    "date": "2026-06-19T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e042",
+    "from": "security-alerts@bankingapp.com",
+    "subject": "New device sign-in detected",
+    "body": "We noticed a sign-in to your account from a new device. If this was you, no action needed. If you don't recognize this activity, please secure your account immediately.",
+    "date": "2026-06-26T22:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e043",
+    "from": "jordan.lee@partnerfirm.com",
+    "subject": "Re: Quick question before tomorrow",
+    "body": "Never mind, figured it out from the old proposal doc. We're good, thanks anyway.",
+    "date": "2026-06-26T08:10:00",
+    "thread_id": "t002"
+  },
+  {
+    "id": "e044",
+    "from": "petvet@animalclinic.com",
+    "subject": "Reminder: annual checkup due",
+    "body": "Our records show your pet's annual checkup is due. Give us a call to schedule whenever convenient, no rush.",
+    "date": "2026-06-20T13:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e045",
+    "from": "conference.organizers@industryevent.com",
+    "subject": "Your talk slot has been moved",
+    "body": "Quick note, your speaking slot has been moved from Tuesday afternoon to Tuesday morning due to a scheduling conflict with another speaker. New slides deadline is tonight if you haven't submitted yet.",
+    "date": "2026-06-25T17:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e046",
+    "from": "roommate.priya@personalmail.com",
+    "subject": "rent",
+    "body": "hey can you send your half by tomorrow, landlord's being weird about late payments this month and i don't want another notice",
+    "date": "2026-06-26T20:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e047",
+    "from": "surveys@feedbackplatform.com",
+    "subject": "We'd love your feedback",
+    "body": "How did we do? Take our 2-minute survey about your recent experience. Your feedback helps us improve.",
+    "date": "2026-06-21T11:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e048",
+    "from": "client.bigaccount@majorclient.com",
+    "subject": "Re: Following up - getting some pressure here",
+    "body": "Spoke to my team, we're going to need the revised terms by end of week or we have to take this to procurement review, which adds another month and a lot of extra scrutiny on everything. Let's avoid that if we can.",
+    "date": "2026-06-28T09:00:00",
+    "thread_id": "t003"
+  },
+  {
+    "id": "e049",
+    "from": "library@university.edu",
+    "subject": "Item due soon",
+    "body": "The item you borrowed is due back in 3 days. Renew online or return to avoid late fees.",
+    "date": "2026-06-25T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e050",
+    "from": "freelancer.designer@creativework.com",
+    "subject": "Logo drafts ready, also a heads up",
+    "body": "Attached are the three logo drafts we discussed, take your time reviewing them. Separately, heads up that I'm raising my rates starting next quarter for new projects, wanted to give you advance notice since we've worked together a while.",
+    "date": "2026-06-24T10:30:00",
+    "thread_id": null
+  },
+  {
+    "id": "e051",
+    "from": "prof.reyes@university.edu",
+    "subject": "Group project teams posted",
+    "body": "Teams for the group project are posted on the portal. No action needed right now, we'll discuss details in class.",
+    "date": "2026-06-18T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e052",
+    "from": "events@trendybrand.com",
+    "subject": "Last day to return holiday items",
+    "body": "Reminder that today is the last day to return holiday season purchases. After today, all sales are final.",
+    "date": "2026-06-26T06:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e053",
+    "from": "insurance.agent@coverageco.com",
+    "subject": "Policy lapsing - payment not received",
+    "body": "We have not received your premium payment and your policy will lapse in 5 days if payment isn't made. This would leave you without coverage. Please contact us or make a payment online as soon as possible.",
+    "date": "2026-06-25T11:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e054",
+    "from": "carpool.group@neighborhoodlist.com",
+    "subject": "Schedule swap needed for Thursday",
+    "body": "I can't drive Thursday as scheduled, car trouble. Can someone swap with me? If not I'll figure something out but would appreciate a heads up either way by tonight.",
+    "date": "2026-06-25T19:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e055",
+    "from": "promo@dealsdealsdeals.com",
+    "subject": "Refund processed",
+    "body": "Your refund for the recent return has been processed and should appear on your statement within 3-5 business days.",
+    "date": "2026-06-23T12:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e056",
+    "from": "building.management@apartmentcomplex.com",
+    "subject": "Water shutoff notice",
+    "body": "Water will be shut off building-wide tomorrow 9am-1pm for scheduled repairs. Please plan accordingly.",
+    "date": "2026-06-26T15:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e057",
+    "from": "hr@currentemployer.com",
+    "subject": "Re: Action required: benefits enrollment closes Friday",
+    "body": "Following up, we noticed you still haven't submitted your enrollment selections. Deadline is end of day tomorrow now, it was extended slightly company-wide.",
+    "date": "2026-06-25T16:30:00",
+    "thread_id": null
+  },
+  {
+    "id": "e058",
+    "from": "weatherapp@dailyalerts.com",
+    "subject": "Severe weather alert for your area",
+    "body": "A severe thunderstorm warning has been issued for your area, effective until 9pm tonight. Seek shelter if outdoors.",
+    "date": "2026-06-26T14:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e059",
+    "from": "book.club@friendsgroup.com",
+    "subject": "Next pick + a small thing",
+    "body": "Excited to announce next month's pick is the one Dana suggested! Also, small thing, the venue we usually use is booked that week, if anyone has space to host or other ideas let me know by this weekend so we can sort it out in time.",
+    "date": "2026-06-24T18:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e060",
+    "from": "warranty@appliancebrand.com",
+    "subject": "Extended warranty offer",
+    "body": "Protect your recent purchase with our extended warranty plan. Limited time offer, enroll within 30 days of purchase to qualify.",
+    "date": "2026-06-21T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e061",
+    "from": "city.utilities@municipalservices.gov",
+    "subject": "Past due balance notice",
+    "body": "Your utility account shows a past due balance. Service may be interrupted if payment is not received within 10 days. Please review your account online.",
+    "date": "2026-06-22T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e062",
+    "from": "sam.osei@formerclassmate.com",
+    "subject": "actually nvm",
+    "body": "saw your story, looks like you're already busy this weekend, no worries, another time",
+    "date": "2026-06-26T13:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e063",
+    "from": "conference.organizers@industryevent.com",
+    "subject": "Thanks for speaking!",
+    "body": "Thanks again for speaking at the event, recordings will be posted next month, no action needed on your end.",
+    "date": "2026-06-29T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e064",
+    "from": "prof.reyes@university.edu",
+    "subject": "Re: Recommendation letter - need this by Monday",
+    "body": "Just checking, did you get a chance to send the form and resume? I leave Monday afternoon so I really do need it before then to get the letter done in time.",
+    "date": "2026-06-29T08:00:00",
+    "thread_id": "t004"
+  },
+  {
+    "id": "e065",
+    "from": "billing@cloudhostpro.com",
+    "subject": "Payment failed - update your card",
+    "body": "Your last payment attempt failed. Please update your payment method within 7 days to avoid service interruption.",
+    "date": "2026-06-27T07:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e066",
+    "from": "moving.company@relocateco.com",
+    "subject": "Confirming your move date",
+    "body": "Just confirming your scheduled move is this Saturday, crew arrives 8am. Please have everything boxed and ready, any changes need to be made by end of day today.",
+    "date": "2026-06-26T11:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e067",
+    "from": "newsletter@industryweekly.com",
+    "subject": "Special edition: regulatory deadline explainer",
+    "body": "This week we break down the new industry regulation deadline everyone's talking about. Read our full analysis of what it means for businesses in the sector.",
+    "date": "2026-06-27T06:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e068",
+    "from": "maria.chen@venuepartners.com",
+    "subject": "Invoice for Saturday's event",
+    "body": "Hi!! Here's the invoice for Saturday, payment terms are 30 days but no rush at all, just sending for your records!!",
+    "date": "2026-06-28T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e069",
+    "from": "scholarship.committee@university.edu",
+    "subject": "Application materials incomplete",
+    "body": "Your scholarship application is missing one required document. Submissions close in 2 days and incomplete applications will not be considered.",
+    "date": "2026-06-25T10:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e070",
+    "from": "dentist.office@smilecare.com",
+    "subject": "Appointment reminder",
+    "body": "This is a reminder of your upcoming appointment next week. Reply to confirm or call to reschedule.",
+    "date": "2026-06-24T09:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e071",
+    "from": "alex.morgan@oldcolleague.com",
+    "subject": "Re: long time no talk",
+    "body": "So good to hear from you! Things have been busy but good. We should set up a call sometime, totally whenever works, no pressure.",
+    "date": "2026-06-23T20:00:00",
+    "thread_id": "t005"
+  },
+  {
+    "id": "e072",
+    "from": "warehouse@onlineretailer.com",
+    "subject": "Item recalled - action needed",
+    "body": "The item you purchased has been recalled by the manufacturer due to a safety issue. Please stop using it immediately and follow the instructions on our recall page for a refund or replacement.",
+    "date": "2026-06-28T08:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e073",
+    "from": "noreply@social-network.com",
+    "subject": "Your weekly digest",
+    "body": "Here's what you missed this week: 12 posts, 3 events, and a memory from 2 years ago. Check it out.",
+    "date": "2026-06-28T07:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e074",
+    "from": "landlord.dpatel@rentalmail.com",
+    "subject": "Re: Lease renewal decision needed",
+    "body": "Following up on this since the weekend has passed, do you have an answer on the renewal? Need to know soon either way.",
+    "date": "2026-06-29T10:00:00",
+    "thread_id": "t006"
+  },
+  {
+    "id": "e075",
+    "from": "promo@dealsdealsdeals.com",
+    "subject": "We noticed you left items in your cart",
+    "body": "Looks like you left some items in your cart! They're still waiting for you, complete your purchase before they sell out.",
+    "date": "2026-06-27T15:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e076",
+    "from": "hoa.board@neighborhoodassociation.com",
+    "subject": "Annual meeting + vote needed",
+    "body": "Annual HOA meeting is next month, but more importantly we need your vote on the proposed fence ordinance by mail before the meeting. Ballot attached, postmark deadline is in 10 days.",
+    "date": "2026-06-23T11:00:00",
+    "thread_id": null
+  },
+  {
+    "id": "e077",
+    "from": "client.bigaccount@majorclient.com",
+    "subject": "Resolved, thanks for the quick turnaround",
+    "body": "Got the revised terms, that resolves it on our end and we've avoided the procurement review. Appreciate you moving fast on this.",
+    "date": "2026-06-29T07:00:00",
+    "thread_id": "t003"
+  }
+]
