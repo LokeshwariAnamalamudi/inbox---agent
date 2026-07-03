@@ -1,0 +1,1773 @@
+[
+  {
+    "email_id": "e001",
+    "subject": "Reminder: Lecture moved to Hall B this week",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The email provides an update on a lecture location, which is useful information but requires no specific action or adherence to a deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e002",
+    "subject": "FYI: Updated reading list posted",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The email explicitly states 'No action needed, just keeping everyone in the loop,' indicating it's for informational purposes.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e003",
+    "subject": "ACT NOW: 24-Hour Flash Sale Ends Tonight!!!",
+    "from": "events@trendybrand.com",
+    "category": "noise",
+    "reasoning": "This is a marketing email with a superficial 'act now' call to action, but it's a generic sales promotion lacking real stakes for the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e004",
+    "subject": "Re: Saturday booking",
+    "from": "maria.chen@venuepartners.com",
+    "category": "actionable",
+    "reasoning": "The venue has cancelled the event due to an emergency, requiring the recipient to make other plans immediately.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 3,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e005",
+    "subject": "Your invoice #88213 is ready",
+    "from": "billing@cloudhostpro.com",
+    "category": "informational",
+    "reasoning": "This is a standard invoice notification, and the email states 'No action is needed if you're on auto-pay,' making it purely informational.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e006",
+    "subject": "Quick question before tomorrow",
+    "from": "jordan.lee@partnerfirm.com",
+    "category": "time-sensitive",
+    "reasoning": "The email seeks confirmation on a detail before a proposal is locked in 'tomorrow morning,' implying a clear and immediate need for a response.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e007",
+    "subject": "URGENT: You have 3 new notifications!!!",
+    "from": "noreply@social-network.com",
+    "category": "noise",
+    "reasoning": "This is an automated notification from a social network; the 'URGENT' tag is a false alarm and has no real stakes.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e008",
+    "subject": "Office hours this Friday cancelled",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The email informs of a cancellation and rescheduling of office hours, with 'No need to reply,' making it informational.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e009",
+    "subject": "Action required: benefits enrollment closes Friday",
+    "from": "hr@currentemployer.com",
+    "category": "time-sensitive",
+    "reasoning": "The email clearly states 'open enrollment for benefits closes this Friday at 5pm,' imposing a real deadline for action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e010",
+    "subject": "Re: Saturday booking - alternative found",
+    "from": "maria.chen@venuepartners.com",
+    "category": "actionable",
+    "reasoning": "The recipient must decide by 'end of day today' whether to confirm an alternative venue to avoid losing the slot, requiring a decision and response.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 3,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e011",
+    "subject": "This week in the industry: 5 stories you missed",
+    "from": "newsletter@industryweekly.com",
+    "category": "informational",
+    "reasoning": "This is a weekly industry roundup. While it contains news, there is no explicit action or deadline required from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e012",
+    "subject": "long time no talk",
+    "from": "alex.morgan@oldcolleague.com",
+    "category": "informational",
+    "reasoning": "The email explicitly states there is 'no agenda here, just wanted to say hi'. It's a social check-in without any required action or deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e013",
+    "subject": "Scheduled maintenance Sunday 2-4am",
+    "from": "it-support@currentemployer.com",
+    "category": "informational",
+    "reasoning": "PARSE ERROR -- this email_id was missing from an otherwise-valid batch response. Flagged for manual review.",
+    "confidence": "low",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false,
+    "parse_error": true
+  },
+  {
+    "email_id": "e014",
+    "subject": "Lease renewal decision needed",
+    "from": "landlord.dpatel@rentalmail.com",
+    "category": "actionable",
+    "reasoning": "The landlord requires a decision ('renewing') by 'this weekend' to proceed with sending paperwork or listing the unit.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e015",
+    "subject": "URGENT URGENT URGENT - Last chance pricing",
+    "from": "promo@dealsdealsdeals.com",
+    "category": "time-sensitive",
+    "reasoning": "The email uses 'URGENT' and states 'prices go up tomorrow!', creating a clear and immediate deadline for action, even if the action itself is not specified.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e016",
+    "subject": "Grades posted",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The email states 'no action needed' and is for awareness of posted grades, making it purely informational.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e017",
+    "subject": "We're sorry to see you go",
+    "from": "accounts@streamingservice.com",
+    "category": "informational",
+    "reasoning": "This is a confirmation that a subscription cancellation has been processed and explicitly states 'No further action is needed'.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e018",
+    "subject": "Re: Quick question before tomorrow",
+    "from": "jordan.lee@partnerfirm.com",
+    "category": "time-sensitive",
+    "reasoning": "The sender is following up because a meeting is 'in a few hours' and states they will 'assume extended warranty is included unless you tell me otherwise in the next hour', creating a very tight, immediate deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e019",
+    "subject": "Quick heads up before next class",
+    "from": "prof.reyes@university.edu",
+    "category": "time-sensitive",
+    "reasoning": "The final project proposal deadline has been moved up to 'this Friday', which is a clear and immediate deadline due to a scheduling conflict.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e020",
+    "subject": "Syllabus typo fix",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "This email clarifies a typo in the syllabus and explicitly states 'No action needed', making it purely informational.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e021",
+    "subject": "Class cancelled tomorrow",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The class is cancelled, but there's no action required from the recipient and no immediate deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e022",
+    "subject": "Loved catching up at the conference",
+    "from": "jordan.lee@partnerfirm.com",
+    "category": "noise",
+    "reasoning": "This is a pleasant follow-up from a conference with no specific request for action or a deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e023",
+    "subject": "Contract draft attached",
+    "from": "jordan.lee@partnerfirm.com",
+    "category": "informational",
+    "reasoning": "PARSE ERROR -- this email_id was missing from an otherwise-valid batch response. Flagged for manual review.",
+    "confidence": "low",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false,
+    "parse_error": true
+  },
+  {
+    "email_id": "e024",
+    "subject": "Thanks for confirming!!",
+    "from": "maria.chen@venuepartners.com",
+    "category": "informational",
+    "reasoning": "This is a confirmation and a friendly closing remark for an upcoming event, with no action or deadline implied.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 3,
+        "position": 3,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e025",
+    "subject": "Quick favor for next time!!",
+    "from": "maria.chen@venuepartners.com",
+    "category": "actionable",
+    "reasoning": "The sender is requesting a favor (leaving a review), which requires a specific action from the recipient.",
+    "confidence": "medium",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e026",
+    "subject": "Test results and next steps",
+    "from": "dr.patel@cardiologyclinic.com",
+    "category": "actionable",
+    "reasoning": "The recipient needs to call the office to schedule a follow-up appointment to discuss test results.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e027",
+    "subject": "Early pickup tomorrow",
+    "from": "school.frontoffice@elementary.edu",
+    "category": "time-sensitive",
+    "reasoning": "The email clearly states an early dismissal tomorrow at a specific time, requiring the recipient to arrange pickup.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e028",
+    "subject": "your package",
+    "from": "neighbor.tom@personalmail.com",
+    "category": "informational",
+    "reasoning": "The neighbor is informing the recipient that a package has been secured, with no action required and no deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e029",
+    "subject": "Your rental return is overdue",
+    "from": "carrental@quickrentals.com",
+    "category": "actionable",
+    "reasoning": "The rental is overdue, and the recipient must either return the vehicle or contact the company, indicating a required action and potential financial implications.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e030",
+    "subject": "Registration deadline approaching for the meetup you skipped",
+    "from": "newsletter@hobbyforum.com",
+    "category": "noise",
+    "reasoning": "This is a general reminder about a registration deadline for an event the recipient has already indicated they are not attending.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e031",
+    "subject": "Expense report needs correction",
+    "from": "accounting@currentemployer.com",
+    "category": "actionable",
+    "reasoning": "The email explicitly states that a document is missing and needs to be uploaded for reimbursement to occur, which requires a specific action from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e032",
+    "subject": "are you around this weekend",
+    "from": "sam.osei@formerclassmate.com",
+    "category": "informational",
+    "reasoning": "This is a social invitation with no implied obligation or deadline; the sender explicitly states 'no worries if not'.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e033",
+    "subject": "We've updated our terms of service",
+    "from": "support@projecttool.com",
+    "category": "informational",
+    "reasoning": "The email informs about updated terms of service, and continued use implies acceptance, meaning no immediate action is required.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e034",
+    "subject": "Need to talk about the contract",
+    "from": "client.bigaccount@majorclient.com",
+    "category": "time-sensitive",
+    "reasoning": "The sender states there is internal pushback on contract renewal terms and requests a call 'this week' to address it before it becomes a bigger issue, indicating a need for timely discussion.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 4,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e035",
+    "subject": "Following up - getting some pressure here",
+    "from": "client.bigaccount@majorclient.com",
+    "category": "time-sensitive",
+    "reasoning": "This follow-up email emphasizes increasing 'serious' pushback and the desire to resolve it before it escalates, implying a need for prompt attention to avoid negative consequences.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 4,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e036",
+    "subject": "Your membership renews automatically Friday",
+    "from": "gym.membership@fitnessclub.com",
+    "category": "informational",
+    "reasoning": "This is an automated reminder about an automatic renewal, stating 'No action needed unless you want to make changes', indicating it's for awareness only.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e037",
+    "subject": "Recommendation letter - need this by Monday",
+    "from": "prof.reyes@university.edu",
+    "category": "time-sensitive",
+    "reasoning": "The email has a clear deadline of 'Monday morning' for documents due to an upcoming application deadline on Tuesday and the sender's travel, creating a critical time window.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 1,
+        "is_first_message": true,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e038",
+    "subject": "Delivery delayed",
+    "from": "warehouse@onlineretailer.com",
+    "category": "informational",
+    "reasoning": "This email provides an update on a delivery delay, offering a new estimated delivery window, but requires no specific action from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e039",
+    "subject": "Order shipped! Track your package",
+    "from": "promo@dealsdealsdeals.com",
+    "category": "informational",
+    "reasoning": "This is a shipping notification with an estimated arrival time, providing information about an order but not requiring any action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e040",
+    "subject": "Documents needed for filing",
+    "from": "taxprep@accountingfirm.com",
+    "category": "time-sensitive",
+    "reasoning": "The email indicates that documents are needed to complete a filing before a 'deadline next week' and, while it mentions a 'little buffer', it implies a need for timely submission to avoid complications.",
+    "confidence": "medium",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": false,
+        "pattern": "no history yet -- treat this sender without prior assumptions",
+        "sample_size": 0
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e041",
+    "subject": "You're invited: Homecoming weekend",
+    "from": "alumni@university.edu",
+    "category": "informational",
+    "reasoning": "The email announces homecoming weekend and states registration opens next month. No specific action is required from the recipient, and there is no immediate deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always informational (informational: 1/1)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e042",
+    "subject": "New device sign-in detected",
+    "from": "security-alerts@bankingapp.com",
+    "category": "actionable",
+    "reasoning": "This email requires the recipient to take a specific action to secure their account if they do not recognize the new device sign-in, indicating a real-world consequence if ignored.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e043",
+    "subject": "Re: Quick question before tomorrow",
+    "from": "jordan.lee@partnerfirm.com",
+    "category": "informational",
+    "reasoning": "The sender states they figured out their question from an old document and that everything is good, indicating no further action is needed from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 4,
+        "pattern": "often actionable (actionable: 2/4, noise: 1/4, informational: 1/4)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 2,
+          "noise": 1,
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e044",
+    "subject": "Reminder: annual checkup due",
+    "from": "petvet@animalclinic.com",
+    "category": "informational",
+    "reasoning": "This is a reminder for an annual checkup and explicitly states there is 'no rush' and to call 'whenever convenient', implying no immediate action or deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always informational (informational: 1/1)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e045",
+    "subject": "Your talk slot has been moved",
+    "from": "conference.organizers@industryevent.com",
+    "category": "time-sensitive",
+    "reasoning": "The email states the speaking slot has been moved to an earlier time and that the new slides deadline is tonight, creating a real and imminent deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "often time-sensitive (time-sensitive: 1/2, informational: 1/2)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1,
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e046",
+    "subject": "rent",
+    "from": "roommate.priya@personalmail.com",
+    "category": "time-sensitive",
+    "reasoning": "The email requests rent payment by tomorrow to avoid issues with the landlord, establishing a clear and immediate deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e047",
+    "subject": "We'd love your feedback",
+    "from": "surveys@feedbackplatform.com",
+    "category": "informational",
+    "reasoning": "This is a request for feedback via a survey. While valuable, there is no explicit deadline or requirement for the recipient to act, making it informational.",
+    "confidence": "medium",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always informational (informational: 1/1)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e048",
+    "subject": "Re: Following up - getting some pressure here",
+    "from": "client.bigaccount@majorclient.com",
+    "category": "time-sensitive",
+    "reasoning": "The email states that revised terms are needed by the end of the week to avoid a lengthy and scrutinizing procurement review, creating a clear and impactful deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 4,
+        "pattern": "often actionable (actionable: 2/4, time-sensitive: 1/4, informational: 1/4)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 2,
+          "time-sensitive": 1,
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 4,
+        "position": 3,
+        "is_first_message": false,
+        "is_latest_message": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e049",
+    "subject": "Item due soon",
+    "from": "library@university.edu",
+    "category": "actionable",
+    "reasoning": "The email informs the recipient that an item is due in 3 days and that they need to either renew or return it to avoid late fees, requiring a specific action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e050",
+    "subject": "Logo drafts ready, also a heads up",
+    "from": "freelancer.designer@creativework.com",
+    "category": "informational",
+    "reasoning": "The first part of the email provides logo drafts for review, but states to 'take your time'. The second part is a heads-up about future rate increases, which is informational with no immediate action required.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always informational (informational: 1/1)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e051",
+    "subject": "Group project teams posted",
+    "from": "prof.reyes@university.edu",
+    "category": "informational",
+    "reasoning": "The email explicitly states 'No action needed right now' and that details will be discussed later, indicating it's for awareness only.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 10,
+        "pattern": "often informational (informational: 7/10, time-sensitive: 2/10, actionable: 1/10)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 7,
+          "time-sensitive": 2,
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e052",
+    "subject": "Last day to return holiday items",
+    "from": "events@trendybrand.com",
+    "category": "time-sensitive",
+    "reasoning": "The email states 'today is the last day' for returns, indicating a firm deadline with consequences if missed.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always time-sensitive (time-sensitive: 2/2)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e053",
+    "subject": "Policy lapsing - payment not received",
+    "from": "insurance.agent@coverageco.com",
+    "category": "actionable",
+    "reasoning": "The email clearly requires a specific action (making a payment) to avoid a negative consequence (policy lapse) within a set timeframe.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e054",
+    "subject": "Schedule swap needed for Thursday",
+    "from": "carpool.group@neighborhoodlist.com",
+    "category": "actionable",
+    "reasoning": "The sender requests a specific action (swapping driving duties) with a clear deadline ('by tonight') to resolve a problem.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e055",
+    "subject": "Refund processed",
+    "from": "promo@dealsdealsdeals.com",
+    "category": "informational",
+    "reasoning": "This email confirms a refund has been processed, which is useful information but requires no further action from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 4,
+        "pattern": "often informational (informational: 2/4, time-sensitive: 1/4, noise: 1/4)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "time-sensitive": 1,
+          "informational": 2,
+          "noise": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e056",
+    "subject": "Water shutoff notice",
+    "from": "building.management@apartmentcomplex.com",
+    "category": "time-sensitive",
+    "reasoning": "The email announces a water shutoff 'tomorrow 9am-1pm', which is a specific time-bound event that requires the recipient to 'plan accordingly'.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e057",
+    "subject": "Re: Action required: benefits enrollment closes Friday",
+    "from": "hr@currentemployer.com",
+    "category": "time-sensitive",
+    "reasoning": "This is a follow-up to an action item with a deadline ('end of day tomorrow') that has been slightly extended, maintaining its time-sensitive nature.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always time-sensitive (time-sensitive: 2/2)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e058",
+    "subject": "Severe weather alert for your area",
+    "from": "weatherapp@dailyalerts.com",
+    "category": "time-sensitive",
+    "reasoning": "The email issues a severe weather alert that is 'effective until 9pm tonight', establishing a clear temporal boundary for the information and implied action (seek shelter).",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e059",
+    "subject": "Next pick + a small thing",
+    "from": "book.club@friendsgroup.com",
+    "category": "actionable",
+    "reasoning": "The sender requests input for venue alternatives ('if anyone has space to host or other ideas let me know') with a deadline ('by this weekend').",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e060",
+    "subject": "Extended warranty offer",
+    "from": "warranty@appliancebrand.com",
+    "category": "time-sensitive",
+    "reasoning": "The email offers an extended warranty with a 'Limited time offer, enroll within 30 days of purchase', creating a specific time window for action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e061",
+    "subject": "Past due balance notice",
+    "from": "city.utilities@municipalservices.gov",
+    "category": "time-sensitive",
+    "reasoning": "The email states that service may be interrupted if payment is not received within 10 days, indicating a clear deadline with significant consequences.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e062",
+    "subject": "actually nvm",
+    "from": "sam.osei@formerclassmate.com",
+    "category": "noise",
+    "reasoning": "This email is a social follow-up that explicitly states no action is required and is based on a previous social interaction, not a business imperative.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always noise (noise: 2/2)",
+        "most_common_category": "noise",
+        "category_breakdown": {
+          "noise": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e063",
+    "subject": "Thanks for speaking!",
+    "from": "conference.organizers@industryevent.com",
+    "category": "informational",
+    "reasoning": "The email states that recordings will be posted next month and explicitly states 'no action needed on your end', making it purely informative.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "often time-sensitive (time-sensitive: 1/2, informational: 1/2)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1,
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e064",
+    "subject": "Re: Recommendation letter - need this by Monday",
+    "from": "prof.reyes@university.edu",
+    "category": "actionable",
+    "reasoning": "The sender is explicitly asking for documents (form and resume) and states a need for them before Monday afternoon to complete a task, requiring a specific action from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 10,
+        "pattern": "often informational (informational: 7/10, time-sensitive: 2/10, actionable: 1/10)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 7,
+          "time-sensitive": 2,
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e065",
+    "subject": "Payment failed - update your card",
+    "from": "billing@cloudhostpro.com",
+    "category": "time-sensitive",
+    "reasoning": "The email warns of service interruption if payment is not updated within 7 days, establishing a clear deadline with negative consequences.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "often informational (informational: 1/2, time-sensitive: 1/2)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1,
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e066",
+    "subject": "Confirming your move date",
+    "from": "moving.company@relocateco.com",
+    "category": "actionable",
+    "reasoning": "The email requires that 'any changes need to be made by end of day today,' and implicitly requires confirmation or preparation for the move this Saturday.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e067",
+    "subject": "Special edition: regulatory deadline explainer",
+    "from": "newsletter@industryweekly.com",
+    "category": "informational",
+    "reasoning": "The email discusses a regulatory deadline and offers an analysis, but does not request any action or imply a personal deadline for the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always informational (informational: 2/2)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e068",
+    "subject": "Invoice for Saturday's event",
+    "from": "maria.chen@venuepartners.com",
+    "category": "informational",
+    "reasoning": "The email states 'payment terms are 30 days but no rush at all, just sending for your records!!', indicating the invoice is for awareness and not immediate action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 5,
+        "pattern": "sometimes actionable (actionable: 2/5, informational: 2/5, noise: 1/5)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 2,
+          "informational": 2,
+          "noise": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e069",
+    "subject": "Application materials incomplete",
+    "from": "scholarship.committee@university.edu",
+    "category": "time-sensitive",
+    "reasoning": "The email clearly states submissions close in 2 days and incomplete applications will not be considered, creating a direct and urgent deadline.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e070",
+    "subject": "Appointment reminder",
+    "from": "dentist.office@smilecare.com",
+    "category": "actionable",
+    "reasoning": "The email explicitly asks the recipient to 'Reply to confirm or call to reschedule,' requiring a specific action.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always actionable (actionable: 1/1)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e071",
+    "subject": "Re: long time no talk",
+    "from": "alex.morgan@oldcolleague.com",
+    "category": "informational",
+    "reasoning": "The sender suggests setting up a call but provides no specific time or action required, indicating it's for general connection rather than a concrete task.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always informational (informational: 2/2)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e072",
+    "subject": "Item recalled - action needed",
+    "from": "warehouse@onlineretailer.com",
+    "category": "actionable",
+    "reasoning": "The email explicitly states 'action needed' and instructs the recipient to stop using the item and follow instructions for a refund or replacement.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "often informational (informational: 1/2, actionable: 1/2)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "informational": 1,
+          "actionable": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e073",
+    "subject": "Your weekly digest",
+    "from": "noreply@social-network.com",
+    "category": "noise",
+    "reasoning": "This is a weekly digest from a social network, providing a summary of activity with no specific action or deadline implied for the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "always noise (noise: 2/2)",
+        "most_common_category": "noise",
+        "category_breakdown": {
+          "noise": 2
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e074",
+    "subject": "Re: Lease renewal decision needed",
+    "from": "landlord.dpatel@rentalmail.com",
+    "category": "actionable",
+    "reasoning": "The sender is following up on a lease renewal decision, and explicitly states 'Need to know soon either way,' requiring a decision from the recipient.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 2,
+        "pattern": "often actionable (actionable: 1/2, time-sensitive: 1/2)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 1,
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 2,
+        "position": 2,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e075",
+    "subject": "We noticed you left items in your cart",
+    "from": "promo@dealsdealsdeals.com",
+    "category": "noise",
+    "reasoning": "This is a marketing email about items left in a cart. While it implies urgency ('before they sell out'), it's a typical promotional tactic with no real stakes or required action beyond typical purchasing behavior.",
+    "confidence": "medium",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 4,
+        "pattern": "often informational (informational: 2/4, time-sensitive: 1/4, noise: 1/4)",
+        "most_common_category": "informational",
+        "category_breakdown": {
+          "time-sensitive": 1,
+          "informational": 2,
+          "noise": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e076",
+    "subject": "Annual meeting + vote needed",
+    "from": "hoa.board@neighborhoodassociation.com",
+    "category": "time-sensitive",
+    "reasoning": "The email clearly states a 'postmark deadline is in 10 days' for voting on a proposed ordinance, indicating a critical time window.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": true,
+      "sender_history": {
+        "known": true,
+        "sample_size": 1,
+        "pattern": "always time-sensitive (time-sensitive: 1/1)",
+        "most_common_category": "time-sensitive",
+        "category_breakdown": {
+          "time-sensitive": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": false
+      }
+    },
+    "mock": false
+  },
+  {
+    "email_id": "e077",
+    "subject": "Resolved, thanks for the quick turnaround",
+    "from": "client.bigaccount@majorclient.com",
+    "category": "informational",
+    "reasoning": "This email confirms that an issue is resolved and thanks the recipient for their speed, indicating no further action is needed.",
+    "confidence": "high",
+    "signals_used": {
+      "has_near_term_date": false,
+      "sender_history": {
+        "known": true,
+        "sample_size": 4,
+        "pattern": "often actionable (actionable: 2/4, time-sensitive: 1/4, informational: 1/4)",
+        "most_common_category": "actionable",
+        "category_breakdown": {
+          "actionable": 2,
+          "time-sensitive": 1,
+          "informational": 1
+        }
+      },
+      "thread_position": {
+        "in_thread": true,
+        "thread_length": 4,
+        "position": 4,
+        "is_first_message": false,
+        "is_latest_message": true
+      }
+    },
+    "mock": false
+  }
+]
