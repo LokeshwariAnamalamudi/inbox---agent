@@ -12,6 +12,21 @@ from src.memory_store import initialize_db, get_sender_pattern, confirm_batch_re
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
+# Initialize DB and auto-build sender memory from checkpoint on startup
+# This runs at module level so gunicorn picks it up (not just __main__)
+initialize_db(DB_PATH)
+try:
+    from src.memory_store import get_all_sender_patterns
+    existing_patterns = get_all_sender_patterns(DB_PATH)
+    if not existing_patterns and os.path.exists(CHECKPOINT_PATH):
+        _results, _ = get_data()
+        _live = [r for r in _results.values() if not r.get("mock")]
+        if _live:
+            confirm_batch_results(_live, DB_PATH)
+except Exception:
+    pass  # never crash on startup if memory init fails
+
+
 @app.after_request
 def no_cache(response):
     response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate'
