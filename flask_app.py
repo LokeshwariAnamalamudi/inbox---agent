@@ -421,39 +421,28 @@ async function openEmail(emailId) {
   const draftHtml = canDraft ? `
     <div class="draft-section">
       <div class="draft-title">Reply</div>
-      <div class="suggested-loading" id="suggestedLoading">
-        <span class="spinner"></span> Generating suggested reply...
+      <div style="background:#FFF8E1;border:0.5px solid #F59E0B;border-radius:8px;padding:12px 14px;margin-bottom:14px;font-size:12px;color:#78350F;">
+        💡 <strong>Auto-suggested reply</strong> is available when running locally.<br>
+        Free deployment tier limits prevent long-running AI calls.<br>
+        <a href="https://github.com/LokeshwariAnamalamudi/inbox---agent" target="_blank" style="color:#2B6CB0;">Clone the repo</a> for full functionality including suggested replies.
       </div>
-      <div class="suggested-intent" id="suggestedIntent" style="display:none;">
-        <div class="suggested-label">💡 Suggested reply</div>
-        <div class="suggested-meta" id="suggestedMeta"></div>
-        <div class="suggested-body" id="suggestedBody"></div>
-        <div style="font-size:12px;color:#9B9EAD;margin-bottom:10px;">This is a suggested reply. Review carefully before approving.</div>
-        <div style="display:flex;gap:8px;margin-bottom:14px;">
-          <button class="btn btn-success" onclick="approveSuggested('${emailId}')">✅ Approve & send (simulated)</button>
-          <button class="btn btn-danger btn-sm" onclick="rejectSuggested()">✗ Not right</button>
-        </div>
+      <textarea class="draft-input" id="intentInput" rows="2"
+        placeholder="What do you want to say? e.g. 'confirm I'll send the form by Sunday morning'"></textarea>
+      <button class="btn btn-primary" onclick="generateDraft('${emailId}')">✍️ Generate draft</button>
+      <div class="loading" id="draftLoading"><span class="spinner"></span>Drafting reply — this takes a few seconds...</div>
+      <div class="clarify-box" id="draftClarify">
+        <div style="font-size:13px;font-weight:600;color:#B45309;margin-bottom:4px;">⚠️ Intent unclear — please clarify</div>
+        <div style="font-size:13px;color:#78350F;" id="clarifyText"></div>
       </div>
-      <div id="customDraftSection" style="display:none;">
-        <div style="font-size:12px;color:#9B9EAD;margin-bottom:8px;">Write your own intent instead:</div>
-        <textarea class="draft-input" id="intentInput" rows="2"
-          placeholder="What do you want to say? e.g. 'confirm I'll send the form by Sunday morning'"></textarea>
-        <button class="btn btn-primary" onclick="generateDraft('${emailId}')">✍️ Generate draft</button>
-        <div class="loading" id="draftLoading"><span class="spinner"></span>Drafting reply — this takes a few seconds...</div>
-        <div class="clarify-box" id="draftClarify">
-          <div style="font-size:13px;font-weight:600;color:#B45309;margin-bottom:4px;">⚠️ Intent unclear — please clarify</div>
-          <div style="font-size:13px;color:#78350F;" id="clarifyText"></div>
-        </div>
-        <div class="draft-result" id="draftResult">
-          <div class="draft-meta" id="draftMeta"></div>
-          <div class="section-label">Subject</div>
-          <div style="font-size:15px;font-weight:600;color:#0A0A0F;margin-bottom:14px;" id="draftSubject"></div>
-          <div class="draft-body-box" id="draftBody"></div>
-          <div style="font-size:12px;color:#9B9EAD;margin-bottom:12px;">Review carefully. No email will be sent without your explicit approval.</div>
-          <div class="draft-actions">
-            <button class="btn btn-success" onclick="approveDraft('${emailId}')">✅ Approve & send (simulated)</button>
-            <button class="btn btn-danger btn-sm" onclick="rejectDraft()">❌ Reject</button>
-          </div>
+      <div class="draft-result" id="draftResult">
+        <div class="draft-meta" id="draftMeta"></div>
+        <div class="section-label">Subject</div>
+        <div style="font-size:15px;font-weight:600;color:#0A0A0F;margin-bottom:14px;" id="draftSubject"></div>
+        <div class="draft-body-box" id="draftBody"></div>
+        <div style="font-size:12px;color:#9B9EAD;margin-bottom:12px;">Review carefully. No email will be sent without your explicit approval.</div>
+        <div class="draft-actions">
+          <button class="btn btn-success" onclick="approveDraft('${emailId}')">✅ Approve & send (simulated)</button>
+          <button class="btn btn-danger btn-sm" onclick="rejectDraft()">❌ Reject</button>
         </div>
       </div>
       <div class="send-status" id="sendStatus"></div>
@@ -477,11 +466,6 @@ async function openEmail(emailId) {
       </div>
       ${memHtml}${parseHtml}${draftHtml}
     </div>`;
-
-  // Auto-fetch suggested reply for actionable/time-sensitive emails
-  if (canDraft) {
-    fetchSuggestedReply(emailId);
-  }
 }
 
 let currentSuggestedDraft = null;
