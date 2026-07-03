@@ -807,6 +807,19 @@ def api_send_draft():
 
 if __name__ == "__main__":
     initialize_db(DB_PATH)
+    # Auto-build sender memory from checkpoint if memory.db is empty
+    # This ensures the live deployment (Render) has memory working on first load
+    try:
+        from src.memory_store import get_all_sender_patterns
+        existing = get_all_sender_patterns(DB_PATH)
+        if not existing and os.path.exists(CHECKPOINT_PATH):
+            print("Building sender memory from checkpoint...")
+            results, _ = get_data()
+            live = [r for r in results.values() if not r.get("mock")]
+            confirm_batch_results(live, DB_PATH)
+            print(f"Memory built: {len(get_all_sender_patterns(DB_PATH))} senders learned.")
+    except Exception as e:
+        print(f"Memory init skipped: {e}")
     print("\n🔷 Prism is running → http://127.0.0.1:5000\n")
     port = int(os.environ.get("PORT", 5000))
     app.run(debug=False, host="0.0.0.0", port=port)
