@@ -192,7 +192,20 @@ inbox-agent/
 
 ---
 
-## Future Scope
+## Deployment Notes
+
+The live demo at **https://inbox-agent-20f0.onrender.com** shows the core inbox UI — category navigation, email detail, AI reasoning, sender memory, and todo list.
+
+**Limitation:** AI-powered features (suggested reply, custom draft generation) require 15-20 second Gemini API calls. Free hosting tiers (Render, Railway, HuggingFace Spaces) enforce 30-second request timeouts, which kills these calls before they complete. This is a fundamental constraint of free-tier deployment, not a code bug.
+
+**For full functionality** including suggested replies and live drafting, run locally using the setup instructions above.
+
+**Future deployment options:**
+- Render paid tier ($7/month) — persistent disk + no timeout issues
+- Google Cloud Run — handles long-running requests, scales to zero when idle
+- Self-hosted on any VPS (DigitalOcean, Linode) — full control, ~$5/month
+
+---
 
 - MCP server integration for real Gmail and Google Calendar access
 - Domain trust scoring to catch fabricated deadlines in marketing emails
